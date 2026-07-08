@@ -433,19 +433,16 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -15 }}
               transition={{ duration: 0.3 }}
-              className="space-y-8"
+              className="space-y-8 text-center"
             >
-              <div className="space-y-4 text-center md:text-left">
-                <div className="inline-flex items-center gap-1.5 text-[#d4af37] text-xs font-mono tracking-[0.3em] uppercase bg-amber-950/20 px-2.5 py-1 rounded-full border border-amber-900/30">
-                  <Fingerprint className="w-3.5 h-3.5" /> Special Investigation Unit
-                </div>
-                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight font-serif">
+              <div className="space-y-4">
+                <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
                   プロンプト・ノワール
                 </h1>
                 <p className="text-lg md:text-xl font-medium text-stone-400 tracking-wide mt-1">
-                  〜 嘘つきAIが放つ「ファクトエラー」の容疑箇所を特定せよ 〜
+                  〜嘘つきAIの嘘を見抜け〜
                 </p>
-                <p className="text-stone-400 text-sm md:text-base max-w-2xl leading-relaxed">
+                <p className="text-stone-400 text-sm md:text-base max-w-2xl mx-auto leading-relaxed">
                   深夜の探偵デスクに配属された、不審な言説データの数々。一見もっともらしく完璧に見える文章に、**たった1箇所だけ**「事実誤認（ハルシネーション）」や「論理の飛躍」が仕組まれています。
                   文字が打ち込まれる資料を鋭く精査し、容疑パーツを直接クリックして暴いてください。
                 </p>
